@@ -38,8 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'principal',
+    'crispy_forms',
     'registration',
+    
+    
 
 ]
 
@@ -132,3 +134,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'daniesolarte@umariana.edu.co'
 EMAIL_HOST_PASSWORD = 'shippuden13'
 EMAIL_PORT = 587
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
